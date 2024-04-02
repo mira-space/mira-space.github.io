@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>Mira: A Preliminary Journey into Mini-Sora</title>
+	<!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/stylesheet.css" rel="stylesheet">
+	<script src="assets/js/jquery-2.1.3.min.js"> </script> -->
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -46,15 +49,18 @@
         </div><!--//branding-->
     </header><!--//header-->
 
-
-    <div class="page-header theme-bg-dark py-5 text-center position-relative">
+	<!-- ############################# Title #############################-->
+	<section class="cta-section text-center py-5 theme-bg-dark position-relative">
 	    <div class="theme-bg-shapes-right"></div>
 	    <div class="theme-bg-shapes-left"></div>
 	    <div class="container">
-		    <h1 class="page-heading single-col-max mx-auto"><img class="logo-icon me-2" src="./images/miralogo_s.png" alt="logo" width="7%" height="7%"> Mira: A Preliminary Journey into <br> Mini-Sora</h1>
+		    <h1 class="page-heading single-col-max mx-auto text-white"><img class="logo-icon me-2" src="./images/miralogo_s.png" alt="logo" width="7%" height="7%"> Mira: A Preliminary Journey into <br> Mini-Sora</h1>
 
 			<h5 class="single-col-max mx-auto">ARC Lab, Tencent PCG</h5>
-		    <div class="page-intro single-col-max mx-auto">
+			<h6 class="single-col-max mx-auto">For any inquiries, please email to: <i><em>mira-x@googlegroups.com</em></i></h6>
+	    </div>
+
+		<div class="page-intro single-col-max mx-auto">
 
 				<!-- ############ Authors and Affiliation ############ -->
 				<!-- <div class="publication-authors">
@@ -84,8 +90,10 @@
 		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
 		        </form>
              </div> -->
-	    </div>
-    </div><!--//page-header-->
+
+
+		</div><!--//container-->
+    </section><!--//cta-section-->
 
 <div class="page-content" >
 	    <div class="container">
@@ -145,19 +153,75 @@
 	    <div class="theme-bg-shapes-left"></div>
 	    <div class="container">
 		    <h3 class="mb-2 text-black mb-3">MiraData</h3>
-		    <div class="section-intro text-black mb-3 single-col-max mx-auto">Want to launch your software project and start getting traction from your target users? Check out our premium <a class="text-green" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/">Bootstrap 5 startup template CoderPro</a>! It has everything you need to promote your product.</div>
-
-			<div class="page-intro single-col-max mx-auto">
+		    <div class="page-intro single-col-max mx-auto">
 				<div class="docs-overview py-5">
 					<video id="teaser" autoplay muted loop playsinline width="100%">
-						<source src="./videos/teaser.mp4" type="video/mp4">
+						<source src="videos/miradata.mp4" type="video/mp4">
 					</video>
-
-					<div class="section-intro text-white mb-3 single-col-max mx-auto">Want to launch your software project and start getting traction from your target users? Check out our premium <a class="text-white" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/">Bootstrap 5 startup template CoderPro</a>! It has everything you need to promote your product.</div>
 
 			</div>
 
-			<div class="section-intro text-black mb-3 single-col-max mx-auto">Want to launch your software project and start getting traction from your target users? Check out our premium <a class="text-green" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/">Bootstrap 5 startup template CoderPro</a>! It has everything you need to promote your product.</div>
+		    <div class="section-intro text-black mb-3 single-col-max mx-auto">MiraData is a large-scale video dataset with <strong>long video duration</strong> and <strong>hierarchical caption</strong>. It is specifically designed for tasks such as long video generation and video completion. Each video in MiraData has an uncut duration ranging from <strong>1 to 2 minutes</strong>, and hierarchical captions with an average length of <strong>349 words</strong> describing the video from various aspects. Each video has 6 captions: main object description, background, style, camera move, short caption, and dense caption. Videos are crawled from the internet then cutted to clips and captioned with pretrained models. </div>
+			<div class="section-intro text-black mb-3 single-col-max mx-auto">MiraData is still in an early stage development and we only release two senarios in this version, gaming and city/scenic exploration.</div>
+
+			<div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 25px;">
+					<div class="video-teaser-container">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000004965_hCL5cCkSi4M-000010.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>The video features a man navigating through a series of urban environments in a video game. The character is dressed casually in a light-colored shirt and dark pants. He moves with a sense of urgency, suggesting a stealth or action-oriented gameplay scenario. The environments are detailed and realistic, with textures and lighting that give a sense of depth and immersion. The man interacts with the environment, climbing and jumping over obstacles, which indicates the game likely includes parkour or exploration elements. The presence of dialogue text suggests that there is a narrative component to the game, with other characters communicating with the man, possibly indicating cooperative gameplay or a story-driven mission.</p>
+						</div>
+					</div>
+					<div class="video-teaser-container">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000004824_GcMamTUHNus-000005.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>A sequence from a video game set in a snowy environment. The player character, a warrior dressed in rugged armor with a fur collar, wields a long staff-like weapon. The character is seen engaging in combat with an unseen opponent, executing a series of dynamic, swirling attacks that leave trails in the snow. The scene transitions to a blizzard-obscured view of a traditional East Asian village, followed by the character trudging through deep snow, visibly struggling against the harsh weather conditions. The sequence ends with the character climbing a rocky, snow-covered mountain path, emphasizing the game's focus on exploration and survival in extreme environments.</p>
+						</div>
+					</div>
+					<div class="video-teaser-container">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000000993_bBKzkPbsCSQ-000122.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>The video showcases a man and a woman as they walk down a vibrant city street in a video game setting. The man is dressed casually with a cap, a hoodie, and light-colored pants, while the woman sports a light jacket and jeans. They move through a sunny, palm-lined environment that is reminiscent of a bustling urban area in a Southern Californian city. The virtual world is rich with detail, featuring realistic textures, dynamic lighting, and a variety of architectural styles that contribute to an immersive experience.</p>
+						</div>
+					</div>
+					<div class="video-teaser-container">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000004003_Iv3uNk6xAqk-000011.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>The video presents a sequence of events in a dimly lit, atmospheric kitchen setting. The ambiance is eerie, with a focus on stealth and tension. A small, humanoid character with a yellow raincoat sneaks through the environment, which is oversized in comparison to their diminutive size. The kitchen is occupied by large, grotesque chef-like figures, whose attention the small character must avoid to navigate the space. The mise-en-sc??ne is rich with detail, featuring kitchenware, food items, and furniture that contribute to the oppressive and grim atmosphere.</p>
+						</div>
+					</div>
+
+					<div class="video-teaser-container" style="margin-top: -6px;">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000009998_Xmrmk00jzKk-000004.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>The video captures the dynamic and picturesque environment of a ski resort where people are engaging in winter sports. Skiers and snowboarders of various skill levels descend the slopes, carving through the pristine snow, with some taking leisurely paths while others take more aggressive, swift turns. The snow-covered landscape is dotted with evergreen trees, and the distant mountains provide a majestic backdrop. The clear blue sky above and the bright sunlight cast sharp shadows on the snow, enhancing the visual contrast and the sense of activity on the slopes.</p>
+						</div>
+					</div>
+					<div class="video-teaser-container" style="margin-top: -6px;">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000010278_2nPLhvjYc8A-000074.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>The video captures a serene journey through a picturesque mountain village, showcasing the natural beauty and quaint architecture of the area. The viewer is taken on a visual stroll past charming wooden buildings, some adorned with signage and outdoor seating areas, as they are gradually introduced to the breathtaking mountain range in the background. The vibrant greenery of trees and well-kept grass complements the scene, while the clear blue sky above sets a peaceful tone for the experience.</p>
+						</div>
+					</div>
+					<div class="video-teaser-container" style="margin-top: -6px;">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000008756_SiryvrStb8E-000027.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>The video captures a rainy night in a bustling cityscape, where the glow of neon signs and streetlights reflects off the wet pavement. People with umbrellas navigate the slick sidewalks, their movements unhurried as they avoid puddles. The city is alive with the vibrant colors of advertisements and storefronts, casting a cinematic quality over the scene. The rain adds a layer of tranquility to the otherwise busy urban environment, creating a juxtaposition between the calm of nature and the energy of city life.</p>
+						</div>
+					</div>
+					<div class="video-teaser-container" style="margin-top: -6px;">
+						<video playsinline="" autoplay="autoplay" loop="loop" muted="muted" type="video/mp4" class="video-teaser" src="assets/samples/000000007429_J00Ex6BGqGI-000004.mp4"></video>
+						<div class="hover-overlay responsive-text" style="font-size: 6px; color: #ffffff">
+							<p>The video captures the exhilarating experience of a motorcycle ride along a dirt road that cuts through a vast mountainous landscape. The rider's perspective gives a sense of speed and motion, with the road blurring beneath and the scenery rushing by. The mountains loom in the background, their peaks occasionally dusted with snow, suggesting a cooler climate or season. Overhead, the sky is a tapestry of clouds, hinting at the possibility of changing weather, adding a dynamic element to the ride.</p>
+						</div>
+					</div>
+
+
+					<div class="container text-center footnote">
+						We will remove the video samples from our dataset / Github / project webpage as long as you need it. Please contact tsaishienchen at gmail dot com for the request.
+					</div>
+				</div>
+
+			<div class="section-intro text-black mb-3 single-col-max mx-auto">xxxxxxxxxxxxxxxxxx</div>
 
 
 		    <div class="pt-3 text-center">
