@@ -31,3 +31,7 @@
 .publication-authors a:hover {
     text-decoration: underline;
 }
+
+.left-aligned-text {
+    text-align: left;
+}
