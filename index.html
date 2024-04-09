@@ -108,7 +108,7 @@
 				<div class="docs-overview py-5">
 
 					<video id="teaser" autoplay muted loop playsinline width="100%">
-						<source src="./videos/teaser.mp4" type="video/mp4">
+						<source src="./assets/videos/teaser.mp4" type="video/mp4">
 					</video>
 					<h5 class="card-title mb-3">
 						<span class="theme-icon-holder card-icon-holder me-2">
@@ -117,7 +117,28 @@
 						<span class="card-title-text">Introduction</span>
 					</h5>
 					<div class="card-text">
-						Under construction.
+
+						<div class="page-intro text-black mb-3 single-col-max mx-auto left-aligned-text">
+							We introduce Mira (Mini-Sora), an initial foray into the realm of high-quality, long-duration video generation in the style of Sora. Sora stands out from existing text-to-video (T2V) generation frameworks in several key ways:
+							<br><br>
+							<strong>1. Extended sequence length</strong>:  While most frameworks are limited to generating short videos (2 seconds / 16 frames), Sora is designed to produce significantly longer sequences, potentially lasting 10 seconds, 20 seconds, or more.
+							<br><br>
+							<strong>2. Enhanced dynamics</strong>:  Sora has the capability to create videos with rich dynamics and intricate motions, setting it apart from the more static outputs of current video generation technologies.
+							<br><br>
+							<strong>3.Interactive objects and environments</strong>:  
+							Sora supports the generation of videos where objects and surroundings engage in dynamic interactions, adding a layer of complexity and realism.
+							<br><br>
+							<strong>4. Strong 3D consistency</strong>:  
+							Despite the intricate dynamics and object interactions, Sora ensures the 3D integrity of objects is preserved throughout the video, avoiding noticeable distortions.
+							<br><br>
+							<strong>5. Sustained object consistency</strong>:  
+							Sora maintains consistent object shapes, even when they temporarily exit and re-enter the frame, ensuring continuity and coherence.
+							<br><br>
+							The Mira project is our endeavor to investigate and refine the entire data-model-training pipeline for Sora-like, lightweight T2V frameworks, and to preliminarily demonstrate the aforementioned Sora characteristics. Our goal is to foster innovation and democratize the field of content creation, paving the way for more accessible and advanced video generation tools.
+
+						</div>
+
+
 					</div>
 					<a id="miradit"></a> <!-- Anchor for MiraDiT, for better visualization, place here -->
 				</div>
@@ -135,20 +156,15 @@
 	    <div class="container">
 		    <h3 class="mb-2 text-white mb-3">MiraDiT</h3>
 
-		    <div class="section-intro text-white mb-3 single-col-max mx-auto">To be updated</div>
 
 			<div class="page-intro single-col-max mx-auto">
 				<div class="docs-overview py-5">
-					<video id="teaser" autoplay muted loop playsinline width="100%">
-						<source src="./videos/teaser.mp4" type="video/mp4">
-					</video>
 
-					<div class="section-intro text-white mb-3 single-col-max mx-auto">To be updated.</div>
-
+					<embed src="images/miradit.pdf" width="100%" height="550pt" />
 			</div>
 
 				<div class="pt-3 text-center">
-			    <a class="btn btn-light" href="./miradit.html" target="_blank" >More Details<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+			    <a class="btn btn-light" href="https://github.com/mira-space/Mira" target="_blank" >More Details<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
 				<a id="miradata"></a> <!-- Anchor for MiraData, for better visualization, place here -->
 		    </div>
 
