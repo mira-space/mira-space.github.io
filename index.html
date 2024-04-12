@@ -55,7 +55,6 @@
 			<h5 class="single-col-max mx-auto">ARC Lab, Tencent PCG</h5>
 			<h6 class="single-col-max mx-auto">For any inquiries, please email to: <i><em>mira-x@googlegroups.com</em></i></h6>
 
-			<div class="section-intro mb-3 single-col-max mx-auto"><i>Please note that we are currently conducting preliminary experiments for Mini-Sora. Our primary objective with this project is not to fully reproduce Sora, but rather to explore specific key components within the Sora framework and share our findings with the community.</i></div>
 
 		<div class="page-intro single-col-max mx-auto">
 
@@ -83,25 +82,33 @@
 					<div class="card-text">
 
 						<div class="page-intro text-black mb-3 single-col-max mx-auto left-aligned-text">
-							We introduce Mira (Mini-Sora), an initial foray into the realm of high-quality, long-duration video generation in the style of Sora. Sora stands out from existing text-to-video (T2V) generation frameworks in several key ways:
+							We introduce Mira (Mini-Sora), an initial foray into the realm of high-quality, long-duration video generation in the style of Sora. 
+							Mira stands out from existing text-to-video (T2V) generation frameworks in several key ways:
 							<br><br>
-							<strong>1. Extended sequence length</strong>:  While most frameworks are limited to generating short videos (2 seconds / 16 frames), Sora is designed to produce significantly longer sequences, potentially lasting 10 seconds, 20 seconds, or more.
+							<strong>1. Extended sequence length</strong>:  While most frameworks are limited to generating short videos (2 seconds / 16 frames), 
+							Mira is designed to produce significantly longer sequences, potentially lasting 10 seconds, 20 seconds, or more.
 							<br><br>
-							<strong>2. Enhanced dynamics</strong>:  Sora has the capability to create videos with rich dynamics and intricate motions, setting it apart from the more static outputs of current video generation technologies.
+							<strong>2. Enhanced dynamics</strong>:  Mira has the capability to create videos with rich dynamics and intricate motions, 
+							setting it apart from the more static outputs of current video generation technologies.
 							<br><br>
-							<strong>3.Interactive objects and environments</strong>:  
+							<strong>3. Strong 3D consistency</strong>:  
+							Despite the intricate dynamics and object interactions, Mira ensures the 3D integrity of objects is preserved throughout the video, avoiding noticeable distortions.
+							<br><br>
+
+							The Mira project is our endeavor to investigate and refine the entire data-model-training pipeline for Sora-like, lightweight T2V frameworks, and to preliminarily demonstrate the other Sora characteristics, such as 
+							<br><br>
+							<strong>1.Interactive objects and environments</strong>:  
 							Sora supports the generation of videos where objects and surroundings engage in dynamic interactions, adding a layer of complexity and realism.
-							<br><br>
-							<strong>4. Strong 3D consistency</strong>:  
-							Despite the intricate dynamics and object interactions, Sora ensures the 3D integrity of objects is preserved throughout the video, avoiding noticeable distortions.
-							<br><br>
-							<strong>5. Sustained object consistency</strong>:  
+							<br><br>							
+							<strong>2. Sustained object consistency</strong>:  
 							Sora maintains consistent object shapes, even when they temporarily exit and re-enter the frame, ensuring continuity and coherence.
 							<br><br>
-							The Mira project is our endeavor to investigate and refine the entire data-model-training pipeline for Sora-like, lightweight T2V frameworks, and to preliminarily demonstrate the aforementioned Sora characteristics. Our goal is to foster innovation and democratize the field of content creation, paving the way for more accessible and advanced video generation tools.
+							
+							Our goal is to foster innovation and democratize the field of content creation, paving the way for more accessible and advanced video generation tools.
 
 						</div>
- 						
+ 						<div class="section-intro mb-3 single-col-max mx-auto"><i>Please note that we are currently conducting preliminary experiments for Mini-Sora. Our primary objective with this project is not to fully reproduce Sora, but rather to explore specific key components within the Sora framework and share our findings with the community.</i></div>
+
 						<a id="miradit"></a> <!-- Anchor for MiraDit, for better visualization, place here -->
 					</div>
 					
@@ -175,7 +182,7 @@
 
 			</div>
 
-			<h4 class="mb-2 text-black mb-3">Samples</h4>
+			<h4 class="mb-2 text-black mb-3">Samples from MiraData</h4>
 
 
 			 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 25px;">
